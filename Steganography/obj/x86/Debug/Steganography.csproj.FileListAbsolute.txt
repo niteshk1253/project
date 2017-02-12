@@ -1,0 +1,36 @@
+D:\study\college\projects\college project videos\check\Steganography\bin\Debug\Steganography.exe.config
+D:\study\college\projects\college project videos\check\Steganography\bin\Debug\Steganography.exe
+D:\study\college\projects\college project videos\check\Steganography\bin\Debug\Steganography.pdb
+D:\study\college\projects\college project videos\check\Steganography\obj\x86\Debug\Steganography.Steganography.resources
+D:\study\college\projects\college project videos\check\Steganography\obj\x86\Debug\Steganography.Properties.Resources.resources
+D:\study\college\projects\college project videos\check\Steganography\obj\x86\Debug\Steganography.csproj.GenerateResource.Cache
+D:\study\college\projects\college project videos\check\Steganography\obj\x86\Debug\Steganography.exe
+D:\study\college\projects\college project videos\check\Steganography\obj\x86\Debug\Steganography.pdb
+D:\study\college\projects\college project videos\check\Steganography\obj\x86\Debug\Steganography.csprojResolveAssemblyReference.cache
+D:\study\college\projects\college project videos\old\Steganography\bin\Debug\Steganography.exe.config
+D:\study\college\projects\college project videos\old\Steganography\obj\x86\Debug\Steganography.exe
+D:\study\college\projects\college project videos\old\Steganography\obj\x86\Debug\Steganography.pdb
+D:\study\college\projects\college project videos\old\Steganography\bin\Debug\Steganography.exe
+D:\study\college\projects\college project videos\old\Steganography\bin\Debug\Steganography.pdb
+D:\study\college\projects\college project videos\old\Steganography\obj\x86\Debug\Steganography.csprojResolveAssemblyReference.cache
+D:\study\college\projects\college project videos\old\Steganography\obj\x86\Debug\Steganography.Steganography.resources
+D:\study\college\projects\college project videos\old\Steganography\obj\x86\Debug\Steganography.Properties.Resources.resources
+D:\study\college\projects\college project videos\old\Steganography\obj\x86\Debug\Steganography.csproj.GenerateResource.Cache
+D:\study\college\projects\college project videos\old currently working\Steganography\bin\Debug\Steganography.exe.config
+D:\study\college\projects\college project videos\old currently working\Steganography\obj\x86\Debug\Steganography.exe
+D:\study\college\projects\college project videos\old currently working\Steganography\bin\Debug\Steganography.exe
+D:\study\college\projects\college project videos\old currently working\Steganography\bin\Debug\Steganography.pdb
+D:\study\college\projects\college project videos\old currently working\Steganography\obj\x86\Debug\Steganography.csprojResolveAssemblyReference.cache
+D:\study\college\projects\college project videos\old currently working\Steganography\obj\x86\Debug\Steganography.Steganography.resources
+D:\study\college\projects\college project videos\old currently working\Steganography\obj\x86\Debug\Steganography.Properties.Resources.resources
+D:\study\college\projects\college project videos\old currently working\Steganography\obj\x86\Debug\Steganography.csproj.GenerateResource.Cache
+D:\study\college\projects\college project videos\old currently working\Steganography\obj\x86\Debug\Steganography.pdb
+D:\study\college\projects\my project\Steganography\bin\Debug\Steganography.exe.config
+D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.exe
+D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.pdb
+D:\study\college\projects\my project\Steganography\bin\Debug\Steganography.exe
+D:\study\college\projects\my project\Steganography\bin\Debug\Steganography.pdb
+D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.csprojResolveAssemblyReference.cache
+D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.Steganography.resources
+D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.Properties.Resources.resources
+D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.csproj.GenerateResource.Cache
