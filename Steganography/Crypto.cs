@@ -27,7 +27,7 @@ namespace Steganography
 
             try
             {
-                // generate the s_key from the shared secret and the salt
+                // generate the s_key from the shared secret and the salt 
                 Rfc2898DeriveBytes k = new Rfc2898DeriveBytes(s_key, _s);
 
                 // Create a RijndaelManaged object
