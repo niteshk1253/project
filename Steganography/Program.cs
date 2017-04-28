@@ -15,7 +15,7 @@ namespace Steganography
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Steganography ());
+            Application.Run(new WelcomeScreen ());
         }
     }
 }

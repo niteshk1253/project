@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Stego 1.0.exe" version="1.0.0.0" publicKeyToken="6e67772f7079b249" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Stego 1.0" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Stego 1.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="337920">
+      <assemblyIdentity name="MetroFramework" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>N9MxyEFAYfngyqV+j9HagCDP79g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TUmuh5MITjDd2w6qedrORn2ot6o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>PQbgGmiBGxW+gHM3NI9Winm6A0g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Stego 1.0.exe" size="378368">
+      <assemblyIdentity name="Stego 1.0" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>utsTec2mQ4oHAw+qzsRMm78IZPE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="51262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Sd3La+P7QCwIRJAr4nXQmV3X7Oo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Stego 1.0.exe.config" size="114">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WTVoTKFnsjzif7ummDQEqVtPnOo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-B83CNAI\Nitesh" issuerKeyHash="e09307005843d6a896054aa331f222e98ae5796e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>/hQcFF+I+Piagp9J+z92/k6rnqI=</DigestValue></Reference></SignedInfo><SignatureValue>aeE371ahTDOAZ2P8kyYsm/JYV5senOh7/wi7wZg4HYRwrbLTeIkQuLmQBSFvkDcVJ7YToeISUDNEhlIhTrTRvT3M9fiqzl0ZGInq+14TNx5MZYoq6KbwGXxoPzV3CSi3+teXgMJY3/e87RBtkJBJLDz7RaMJBUkTQ8Q7BWM4OOI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>jEvjdjFNy00cBN0aTOqFaYqLBFcQIUVHFxqK+cimNcRhZk8LXMk19iUelLKMtj1D2/qlj9noPUljA3LXRo9YS4z4ByP9225JZdu5rplfMZNHDx0eozIy/QC6pZIrkD8LeDuCB48PFYbZvtx2ilFOudKLkDx1tcKEyXENI7XBOqU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a29eab4efe763ffb499f829af8f8885f141c14fe" Description="" Url=""><as:assemblyIdentity name="Stego 1.0.exe" version="1.0.0.0" publicKeyToken="6e67772f7079b249" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-B83CNAI\Nitesh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Uk9OmNzcK6+3D8xvxdreHCk9IyM=</DigestValue></Reference></SignedInfo><SignatureValue>Wcqreyt9iSabl1pqAqg96OLn9HI1m2crfd0qxrSW+mPsq1jecp7/Rc1OMrz01eVDwA7mj+DcWTtE16o08O5GtuwJ/+tJPBNwU8OpFndIoA592VWlZNy0PqclcewhB25XNzVE+Pn8x1GUfvSJ9WtbS6CkMqxRvKb0iMrMGvnon2o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>jEvjdjFNy00cBN0aTOqFaYqLBFcQIUVHFxqK+cimNcRhZk8LXMk19iUelLKMtj1D2/qlj9noPUljA3LXRo9YS4z4ByP9225JZdu5rplfMZNHDx0eozIy/QC6pZIrkD8LeDuCB48PFYbZvtx2ilFOudKLkDx1tcKEyXENI7XBOqU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQGdBK71+shL1JqYt0qR7HajANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEIAOAAzAEMATgBBAEkAXABOAGkAdABlAHMAaDAeFw0xNzA0MjYxODA4NTRaFw0xODA0MjcwMDA4NTRaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AQgA4ADMAQwBOAEEASQBcAE4AaQB0AGUAcwBoMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCMS+N2MU3LTRwE3RpM6oVpiosEVxAhRUcXGor5yKY1xGFmTwtcyTX2JR6Usoy2PUPb+qWP2eg9SWMDctdGj1hLjPgHI/3bbkll27mumV8xk0cPHR6jMjL9ALqlkiuQPwt4O4IHjw8Vhtm+3HaKUU650ouQPHW1woTJcQ0jtcE6pQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAG2IbKC0f71OlozzWB1zyp2SUXMCR9cCsShmp6BN+ZtBDDIHWt/BChGf0nogSXOzFAl8xxFUZcKP5QPerHITrWjbuoo9BvOzIzbtb5Xkho+BtBqIOII2Sfzzq5NoebdU6awZMw/0iwend0WrDf+impt04pxICFHjCWQjNrNN2bnG</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

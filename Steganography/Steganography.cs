@@ -4,10 +4,13 @@ using System.Windows.Forms;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Diagnostics;
+using System.Text;
+using MetroFramework.Forms;
+using MetroFramework;
 
 namespace Steganography
 {
-    public partial class Steganography : Form
+    public partial class Steganography : MetroForm
     {
         private Bitmap b = null;
         private string messageExt = string.Empty;
@@ -28,33 +31,49 @@ namespace Steganography
 
             if (text.Equals(""))
             {
-                MessageBox.Show("The text you want to hide can't be empty", "Warning");
-
+                MetroMessageBox.Show(this, "The text you want to hide can't be empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             if (encryptCheckBox.Checked)
             {
-                if (passwordTextBox.Text.Length < 6)
+                if (encrypTypeDES.Checked)
                 {
-                    MessageBox.Show("Please enter a password with at least 6 characters", "Warning");
+                    if (passwordTextBox.Text.Length !=8)
+                    {
+                        MetroMessageBox.Show(this, "Please enter a password of 8 characters", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                     
+                        return;
+                    }
+                    else
+                    {
+                        byte[] bytes = ASCIIEncoding.ASCII.GetBytes(passwordTextBox.Text);
+                        text = DES.Encrypt(text, bytes);
+                    }
+                }
+                else if(encrypTypeAES.Checked)
+                {
+                    if (passwordTextBox.Text.Length <8)
+                    {
+                        MetroMessageBox.Show(this, "Please enter a password of minimum 8 characters", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    else
+                    {
 
-                    return;
+                        text = Crypto.AES_Enc(text, passwordTextBox.Text);
+                    }
                 }
-                else
-                {
-                    text = Crypto.AES_Enc(text, passwordTextBox.Text);
-                }
+                
             }
 
             dataTextBox.Text = text;
             b = SteganographyHelper.msgHiding(text, b);
 
             aes.Stop();
-            MessageBox.Show("Your text was hidden in the image successfully!", "Done");
+            MetroMessageBox.Show(this, "Your text was hidden in the image successfully!", "Succcess", MessageBoxButtons.OK, MessageBoxIcon.Information);
+          
             aes_time.Text = aes.Elapsed.ToString();
-
-
 
         }
 
@@ -66,16 +85,34 @@ namespace Steganography
 
             if (encryptCheckBox.Checked)
             {
-                try
+                if(encrypTypeDES.Checked)
                 {
-                    messageExt = Crypto.AES_Dec(messageExt, passwordTextBox.Text);
-                }
-                catch
-                {
-                    MessageBox.Show("Wrong password", "Error");
+                    try
+                    {
+                        byte[] bytes = ASCIIEncoding.ASCII.GetBytes(passwordTextBox.Text);
+                        messageExt = DES.Decrypt(messageExt, bytes);
+                    }
+                    catch
+                    {
+                        MetroMessageBox.Show(this, "Wrong password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                    return;
+                        return;
+                    }
                 }
+                else if(encrypTypeAES.Checked)
+                {
+                    try
+                    {
+
+                        messageExt = Crypto.AES_Dec(messageExt, passwordTextBox.Text);
+                    }
+                    catch
+                    {
+                        MetroMessageBox.Show(this, "Wrong password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+                
             }
 
             dataTextBox.Text = messageExt;
@@ -137,7 +174,16 @@ namespace Steganography
 
         private void encryptCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            if(encryptCheckBox.Checked)
+            {
+                encrypTypeAES.Enabled = true;
+                encrypTypeDES.Enabled = true;
+            }
+            else
+            {
+                encrypTypeAES.Enabled = false;
+                encrypTypeDES.Enabled = false;
+            }
         }
 
         private void passwordTextBox_TextChanged(object sender, EventArgs e)
@@ -158,6 +204,16 @@ namespace Steganography
         private void aes_time_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Steganography_Load(object sender, EventArgs e)
+        {
+            dataTextBox.Focus();
+        }
+
+        private void Steganography_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

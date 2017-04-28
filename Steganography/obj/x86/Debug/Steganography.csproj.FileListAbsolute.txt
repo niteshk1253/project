@@ -34,3 +34,36 @@ D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.c
 D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.Steganography.resources
 D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.Properties.Resources.resources
 D:\study\college\projects\my project\Steganography\obj\x86\Debug\Steganography.csproj.GenerateResource.Cache
+D:\College\Final Year Project\project-march\project-march\Steganography\bin\Debug\Steganography.exe.config
+D:\College\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.exe
+D:\College\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.pdb
+D:\College\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.csprojResolveAssemblyReference.cache
+D:\College\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.Steganography.resources
+D:\College\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.Properties.Resources.resources
+D:\College\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.csproj.GenerateResource.Cache
+D:\College\Final Year Project\project-march\project-march\Steganography\bin\Debug\Steganography.exe
+D:\College\Final Year Project\project-march\project-march\Steganography\bin\Debug\Steganography.pdb
+D:\College\Final Year Project\project-march\project-march\Steganography\bin\Debug\MetroFramework.Design.dll
+D:\College\Final Year Project\project-march\project-march\Steganography\bin\Debug\MetroFramework.dll
+D:\College\Final Year Project\project-march\project-march\Steganography\bin\Debug\MetroFramework.Fonts.dll
+D:\College\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.WelcomeScreen.resources
+E:\Final Year Project\project-march\project-march\Steganography\bin\Debug\Steganography.exe.config
+E:\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.exe
+E:\Final Year Project\project-march\project-march\Steganography\obj\x86\Debug\Steganography.pdb
+C:\Users\NITESH\Desktop\project-march\Steganography\bin\Debug\Steganography.exe.config
+C:\Users\NITESH\Desktop\project-march\Steganography\obj\x86\Debug\Steganography.exe
+C:\Users\NITESH\Desktop\project-march\Steganography\obj\x86\Debug\Steganography.pdb
+E:\CD report\project-march\Steganography\bin\Debug\Stego 1.0.exe.config
+E:\CD report\project-march\Steganography\bin\Debug\Stego 1.0.exe.manifest
+E:\CD report\project-march\Steganography\bin\Debug\Stego 1.0.application
+E:\CD report\project-march\Steganography\bin\Debug\Stego 1.0.exe
+E:\CD report\project-march\Steganography\bin\Debug\Stego 1.0.pdb
+E:\CD report\project-march\Steganography\obj\x86\Debug\Steganography.csprojResolveAssemblyReference.cache
+E:\CD report\project-march\Steganography\obj\x86\Debug\Steganography.Steganography.resources
+E:\CD report\project-march\Steganography\obj\x86\Debug\Steganography.Properties.Resources.resources
+E:\CD report\project-march\Steganography\obj\x86\Debug\Steganography.WelcomeScreen.resources
+E:\CD report\project-march\Steganography\obj\x86\Debug\Steganography.csproj.GenerateResource.Cache
+E:\CD report\project-march\Steganography\obj\x86\Debug\Stego 1.0.exe.manifest
+E:\CD report\project-march\Steganography\obj\x86\Debug\Stego 1.0.application
+E:\CD report\project-march\Steganography\obj\x86\Debug\Stego 1.0.exe
+E:\CD report\project-march\Steganography\obj\x86\Debug\Stego 1.0.pdb
